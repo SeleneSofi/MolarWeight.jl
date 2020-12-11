@@ -44,10 +44,10 @@ mw
 
 It displays the molar weight and also returns the number as a Float variable.
 The function ignores non-letter and non-number characters and upper/lower case, and it sums
- repeated atoms, so:
+repeated atoms, so:
 
 ```
-c3-h6,c R4 h3 ==> c3h9cr4
+c14-h6,c L5 h3 ==> c14h9cl5
 ```
 
 The package does not support parenthesis or hydrate formulas yet; "(", ")" "." are ignored.
