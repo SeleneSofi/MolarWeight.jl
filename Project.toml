@@ -1,7 +1,7 @@
 name = "MolarWeight"
 uuid = "9455ca06-40b2-46b5-a1e8-4d545d81a278"
 authors = ["Selene Sofi pomc.ecc@gmail.com ans contributors"]
-version = "1.0.0"
+version = "1.0.1"
 
 [compat]
 julia = "1"
