@@ -10,7 +10,7 @@ atomic weight from their
 [Periodic Table](https://iupac.org/what-we-do/periodic-table-of-elements/)
 (dated 1 Dec 2018).
 For the missing values, the most stable isotope ones were used, as in
-[Standard atomic weight](https://en.wikipedia.org/wiki/Standard_atomic_weight/).
+[Standard Atomic Weight (Wikipedia)](https://en.wikipedia.org/wiki/Standard_atomic_weight).
 
 ## Install by:
 
@@ -38,5 +38,5 @@ The function ignores non-letter and non-number characters and upper/lower case, 
 c3-h6,c R4 === c3h6cr4
 ```
 
-The package does not support parenthesys or hydrate formulas yet; "(", ")" "." are ignored.
+The package does not support parenthesis or hydrate formulas yet; "(", ")" "." are ignored.
 These should be implemented later.
