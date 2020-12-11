@@ -23,19 +23,31 @@ For the missing values, the most stable isotope ones were used, as in
 For it to ask for molecular formula, you should use:
 
 ```julia
-MolarWeight.molarweight()
+mw = MolarWeight.molarweight();
+Enter molecular formula:
+C6H12O6
+180.156 g.mol⁻¹
+
+mw
+180.156
 ```
 
 Or you can put the molecular formula as a string, using:
 
 ```julia
-MolarWeight.molarweight(mform::String)
+mw = MolarWeight.molarweight("C6H12O6")
+180.156 g.mol⁻¹
+
+mw
+180.156
 ```
 
-The function ignores non-letter and non-number characters and upper/lower case, so:
+It displays the molar weight and also returns the number as a Float variable.
+The function ignores non-letter and non-number characters and upper/lower case, and it sums
+ repeated atoms, so:
 
-```julia
-c3-h6,c R4 === c3h6cr4
+```
+c3-h6,c R4 h3 ==> c3h9cr4
 ```
 
 The package does not support parenthesis or hydrate formulas yet; "(", ")" "." are ignored.
