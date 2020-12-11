@@ -1,5 +1,11 @@
 module MolarWeight
 
-# Write your package code here.
+    # Atomic weight data collection
+    include("Data.jl")
+
+    # Internal functions
+    include("getaw.jl")
+    include("askmform.jl")
+
 
 end
