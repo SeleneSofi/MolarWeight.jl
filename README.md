@@ -23,22 +23,22 @@ For the missing values, the most stable isotope ones were used, as in
 For it to ask for molecular formula, you should use:
 
 ```julia
-mw = MolarWeight.molarweight();
+julia> mw = MolarWeight.molarweight();
 Enter molecular formula:
 C6H12O6
 180.156 g.mol⁻¹
 
-mw
+julia> mw
 180.156
 ```
 
 Or you can put the molecular formula as a string, using:
 
 ```julia
-mw = MolarWeight.molarweight("C6H12O6")
+julia> mw = MolarWeight.molarweight("C6H12O6")
 180.156 g.mol⁻¹
 
-mw
+julia> mw
 180.156
 ```
 
