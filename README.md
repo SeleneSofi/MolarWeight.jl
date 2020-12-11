@@ -23,13 +23,13 @@ For the missing values, the most stable isotope ones were used, as in
 For it to ask for molecular formula, you should use:
 
 ```julia
-molarweight()
+MolarWeight.molarweight()
 ```
 
 Or you can put the molecular formula as a string, using:
 
 ```julia
-molarweight(mform::String)
+MolarWeight.molarweight(mform::String)
 ```
 
 The function ignores non-letter and non-number characters and upper/lower case, so:

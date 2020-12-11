@@ -7,5 +7,8 @@ module MolarWeight
     include("getaw.jl")
     include("askmform.jl")
 
+    # Exported functions
+    include("molarweght.jl")
+    export molarweight
 
 end
