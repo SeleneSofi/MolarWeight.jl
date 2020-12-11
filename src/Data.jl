@@ -1,5 +1,5 @@
 #
-# Atomic database
+# Atomic database using formal values of https://en.wikipedia.org/wiki/Standard_atomic_weight#:~:text=The%20standard%20atomic%20weight%20(A,atomic%20mass%20constant%20mu.
 #
 
 atomic_weight = Dict(
